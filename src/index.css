@@ -1,0 +1,138 @@
+* {
+
+  box-sizing: border-box;
+  }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  
+  min-height: 100vh;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  align-items: center;
+  
+  
+}
+
+.heading-text {
+  color: white;
+  font-size: 42px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 30px;
+}
+
+.scoreBoard {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin:0px 200px 0px 200px;
+  font-size: 30px;
+}
+
+.area {
+  min-width: 150px;
+  min-height: 150px;
+  font-size: 50px;
+  text-align: center;
+  color: #1CDBF5;
+  font-weight: bolder;
+  padding: 30px;
+}
+
+.fc-aqua {
+  color: #1CDBF5;
+}
+
+.fc-white {
+  color: white;
+}
+
+.fw-600 {
+  font-weight: bolder;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.b-bottom-right {
+  border-right: 15px solid #1CDBF5;
+  border-bottom: 15px solid #1CDBF5;
+}
+
+.b-bottom {
+  border-bottom: 15px solid #1CDBF5;
+}
+
+.b-right {
+  border-right: 15px solid #1CDBF5;
+}
+
+.clear-button {
+  width: max-content;
+  margin: 30px auto 0 auto;
+}
+
+.modal {
+  display: flex;
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  font-size: 64px;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  background-image: url(../src/images/tic-tac-toe-1952.gif);
+  border-radius: 40px;
+  border: 10px solid black;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: 0 0 6px 4px #3f3f3f;
+	-moz-box-shadow: 0 0 6px 4px #3f3f3f;
+	box-shadow: 0 0 6px 4px #3f3f3f;
+}
+
+.hidden {
+  display: none;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.kapsayıcı {
+  display: flex;
+  width: 450px;
+  height: 450px;
+ 
+}
